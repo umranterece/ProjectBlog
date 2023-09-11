@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectBlog.Data\ProjectBlog.Data.csproj" />
+    <ProjectReference Include="..\ProjectBlog.Entities\ProjectBlog.Entities.csproj" />
+    <ProjectReference Include="..\ProjectBlog.Shared\ProjectBlog.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
